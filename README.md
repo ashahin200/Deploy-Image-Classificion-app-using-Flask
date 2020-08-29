@@ -8,23 +8,26 @@ This is a deep learning project. I used Convolutional Neural Networks to classif
 
 ## How to use my code
 First you have to:
-cnn.py  => Train this CNN model from scratch and save weight as h5 file
-app.py => then run this file 
+1. cnn.py  => Train this CNN model from scratch and save weight as h5 file
+2. app.py => then run this file 
 
 before running app.py file some file you have to make previusly. 
 1. index.html => this is the file which you want to show in browser
 2. some CSS snd java_script file. You can find it from static folder.
 
 ## Dependencies:
-python 3
-Tensorflow
-Keras
-Numpy
-Pillow
-flask
+-python 3
+-Tensorflow
+-Keras
+-Numpy
+-Pillow
+-flask
 
-Datasets:
+## Datasets:
 I used MNIST hand_written digit dataset.....
 
-Dataset	Classes	#Train images/objects	#Validation images/objects
-MNIST	10	60000	10000
+#### Dataset - MNIST
+#### Classes - 10
+#### Train images	- 60000
+#### Validation images - 10000
+			
